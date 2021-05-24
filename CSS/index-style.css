@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: "Pattaya", sans-serif;
+	list-style: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;  
+  font-size: 1.3rem;
+}
+
+body {
+  background-color: #f8f9fa;
+}

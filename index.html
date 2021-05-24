@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/index-style.css" />
+    <title>Semantic elements Adrian Neagu</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-light bg-dark navbar-default">
+        <div class="navbar-header m-auto fs-3">
+          <h3 class="navbar-brand text-light">Adrian's Blog Details</h3>
+        </div>
+    </nav>
+
+    <main class="container-fluid">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+
+          <div class="accordion-item shadow mb-5 bg-body rounded container-fluid mt-3">
+            <h2 class="accordion-header " id="intro">  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              About me
+            </button></h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <figure class="row col-lg-10 m-auto">
+                  <img class="img-fluid" src="Images/20191018_214826.jpg" alt="My Photo" />
+                  <figcaption class="bg-dark text-light mb-3">Rome</figcaption>
+                </figure>
+                <div class="row">
+                  <article>
+                    <h3>Short description</h3>
+                    <p>
+                      I am a 27 years old aerospace engineer. I studied aerospace
+                      engineering at Transilvania Univeristy in Brasov between 2013 and
+                      2017. I've studied a lot of interesting topics during my
+                      univeristy years such as: mathemathics, phisics,
+                      aeroelasticity,aeronautical mechanics, aerodynamics, composite
+                      materials, aeronautical structures (calculation and design) etc.
+                    </p>
+                    <p>
+                      After graduating I came to Bucharest to take my masters degree in
+                      aeronautical structure at Polytechnic University of Bucharest.
+                    </p>
+                  </article>
+                  <article>
+                    <h3>Personal life</h3>
+                    <p>
+                      In Bucharest I got to know so many interesting people that have became very close to me in the past years. I made so many friends and memories, that's way I consider Bucharest as may second home, after Sambata de Sus of course, where I grew up.
+                    </p>
+                    <aside>
+                      I played fotball for many years when I was a kid, in my village. Only thing I miss during this pandemic is meeting with friends, which it bacame hard to do with this restrictions.
+                    </aside>
+                  </article>
+                 </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item shadow mb-5 bg-body rounded container-fluid mt-3">
+              <h2 class="accordion-header" id="plans">  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Plans
+              </button></h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <article>
+                    <h2 class="sub-title">Plans</h2>
+                    <p>
+                      My plans for the future are to invest more time in learning new skills. I plan, as mentioned in the section above is to change my career, from Aerospace to IT.
+                    </p>
+                    <p>
+                      This year I will make the change, my determination will help me to
+                      acomplish my goal.
+                    </p>
+                  </article>
+                </div>
+              </div>
+          </div>
+
+          <div class="accordion-item shadow mb-5 bg-body rounded container-fluid mt-3">
+            <h2 class="accordion-header" id="carrer">   <button  class="btn accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Career
+            </button></h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <article class="text">
+                  <h2 class="sub-title">Career</h2>
+                  <p>
+                    I am an aerospace engineer with 3 years experience in this field.
+                    I am currently working as an manufacturing engineer for a
+                    manufacturing company the Aerospace domain.
+                  </p>
+                  <p>
+                    From april 2020 I've also became an program manager for a program for which we manufacture primary parts for a business jet.
+                    <span
+                      ><i>Click the image below to follow the link for more
+                      details.</i></span
+                    >
+                  </p>
+                </article>
+                <div class="row">
+                  <figure class="col-lg-6 col-md-8 col-sm-12 d-flex flex-column align-items-center">
+                    <a
+                      href="https://en.wikipedia.org/wiki/Dassault_Falcon_6X"
+                      target="_blank"
+                      ><img id="link-photo" class="img-fluid" src="Images/F6X.jpg"
+                    /></a>
+                    <figcaption>Dassault Falcon 6X</figcaption>
+                  </figure>
+              
+                  <div class="col-lg-6 col-md-8 col-sm-12 d-flex flex-column align-items-center">
+                    <h3>For the future I have two goals:</h3>
+                    <ol >
+                      <li>To become a web developer</li>
+                      <li>To combine aerospace with IT</li>
+                      <li>
+                        Travel around the world:
+                        <ul>
+                          <li>Madrid</li>
+                          <li>New York</li>
+                          <li>Bangkok</li>
+                          <li>Tokyo</li>
+                          <li>Singapore</li>
+                        </ul>
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item shadow mb-5 bg-body rounded container-fluid mt-3">
+            <h2 class="accordion-header" id="carrer">   <button  class="btn accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+              Current activities
+            </button></h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+              <section class="accordion-body container-fluid">
+                  <article>
+                        <p>Providing project reports to the required standard and deadlines;</p> 
+                        <p>▪ Planning and co-ordinating resources and technical support; </p>
+                        <p>▪ Monitoring new project information as it emerges; </p>
+                        <p>▪ Able to manage client expectations effectively; </p>
+                        <p>▪ Setting clear and attainable project objectives; </p>
+                        <p>▪ Giving direction and support to project team; </p>
+                        <p>▪ Able to solve commercial aspects (deliveries and returns) of the projects.</p>
+                        <p>▪ Research, design and development of new economically advantageous technologies in accordance with market requirements; </p>
+                        <p>▪ Transposition in manufacturing of new products; </p>
+                        <p>▪ Preparing the technical support of the offer; </p>
+                        <p>▪ Drawing technological data sheet for primary parts (PP). </p>
+                        <p>▪ Understanding material specifications from which the primary parts are made and the equipment used for their manufacture; </p>
+                        <p>▪ Provide technical assistance for technological process according to the elaborated technological documentation;</p> 
+                        <p>▪ Analyze and solve non-compliance reports; </p>
+                        <p>▪ Analyze manufacturing and process documentation; </p>
+                        <p>▪ Providing solutions for part manufacturing;</p> 
+                        <p>▪ Implementing new solutions to meet customer requirements.</p>  
+                  </article>
+                </section>
+                
+       </div>
+    </main>
+
+    <footer class="container-fluid bg-dark text-danger p-2 mt-3">
+      <p>&copy Copyright by Adrian Neagu</p>
+      <button type="button" class="btn btn-dark"><a href="blog_Adrian-Neagu.html">Go back to main page</button>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  </body>
+</html>

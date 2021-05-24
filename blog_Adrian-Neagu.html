@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrian-Neagu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/blog-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>  
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <div class="navbar-header" #id="title">
+              <a class="navbar-brand"  href="#">Adrian's blog</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"      data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="nav navbar-nav">
+                <li class="nav-item"><a class="btn nav-link" href="index.html">Details</a></li>
+                <li class="nav-item"><a class="btn nav-link" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  Contact
+                </a></li>
+                <li class="nav-item"><a class="btn nav-link" aria-disabled="true">Temporary disabled</a></li>
+              </ul>
+              <a href="https://www.linkedin.com/in/adrian-ioan-neagu-91696414a/" target="_blank" class="fa fa-linkedin"></a>  
+            </div>
+        </div>
+    </nav>
+
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog container-fluid mt-3">
+
+          <div class="modal-content d-flex flex-column align-items-center">
+              <div class="modal-header">
+                <h3 class="modal-title">
+                  Feel free to contact us</h3>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+
+              <div class="modal-body container-fluid bg-success">
+                  <div class="container-fluid">
+                      <div class="row p-1 m-2 border-bottom border-dark">
+                        <label class="text-warning" for="name">Name:</label>
+                        <input
+                          type="text"
+                          name="name"
+                          id="name"
+                          placeholder="Adrian Neagu"
+                        />
+                      </div>
+
+                      <div class="row p-1 m-2 border-bottom border-dark">
+                        <label class="text-warning">
+                          Email:
+                          <input type="email" name="email" id="email" required />
+                        </label>
+                      </div>
+                      
+                      <div class="row p-1 m-2 border-bottom border-dark">
+                        <label class="text-warning">
+                          Password:
+                          <input
+                            type="password"
+                            name="Password"
+                            id="password"
+                            minlength="3"
+                            required
+                          />
+                        </label class="text-warning">
+                      </div>
+
+                      <div class="row p-1 m-2 border-bottom border-dark">
+                        <label class="text-warning" for="name">Subject:</label>
+                        <input
+                          type="text"
+                          name="subject"
+                          id="subject"
+                          placeholder="Subject"
+                        />
+                      </div>
+                  </div>
+                  <div class="container-fluid d-flex justify-content-start">
+                    <label class="text-warning" for="message">Message:</label>
+                    <textarea
+                      id="textarea"
+                      name="textarea"
+                      rows="10"
+                      cols="25"
+                      placeholder="Please give us your opinion!"
+                    >
+                    </textarea>
+                  </div>
+                </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button id="submit" class="btn btn-primary">Send Message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <main class="container-fluid">
+
+      <div class="row col-lg-6 col-md-8 col-sm-12" id="main-img">
+        <img class="img-fluid rounded d-block" src="Images/20191018_214826.jpg" alt="My Photo">
+      </div>
+
+      <section class="container-fluid">
+          <article class="row m-4">
+            <h2 class="fs-3">A little description</h2>
+            <aside>I played fotball for many years when I was a kid, in my village. Only thing I miss with this pandemic going on, and as well meeting with friends, which it became hard to do with these restrictions.
+            </aside>
+          </article>   
+
+          <div class="row">
+            <div class="col-lg-6 col-md-8 col-sm-12 d-flex flex-column align-items-center">
+              <h3>Healty hobbies</h3>
+              <ul>
+                  <li class="m-2"><b>Sport</b>
+                      <ol>
+                          <li>Fotbal 
+                              <span><a href="https://ro.wikipedia.org/wiki/Real_Madrid_CF" target="_blank">Favorite team</a></span>
+                          </li>  
+                          <li>Gym</li>
+                          <li>Mountain climbing</li>
+                      </ol>
+                  </li>
+                  <li class="m-2">
+                    <b>Reading books</b> 
+                      <ul>
+                          <li>5 Second Rules</li>
+                          <li>Placebo</li>
+                          <li>7 habits of highly effective people </li>
+                      </ul>
+                  </li>
+                  <li class="m-2 fw-bold">Spending time with friends</li>
+              </ul>
+            </div>
+            
+            <div class="col-lg-6 col-md-8 col-sm-12 d-flex flex-column align-items-center">
+              <h3>Relaxing</h3>
+              <ul>
+                  <li>Games</li>
+                  <li>Movies</li>
+                  <li>Drinking beer</li>
+            </div>
+          </div>
+      </section>
+
+    </main>
+    
+    <footer class="container-fluid d-flex flex-column align-items-center border-top border-5">
+      <p>Follow me on:</p>
+      <button class="navbar-toggler bg-info" type="button" data-bs-toggle="collapse"      data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-google"></a>
+          
+          <a href="#" class="fa fa-youtube"></a>
+          <a href="#" class="fa fa-instagram"></a>
+      </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+  </body>
+</html>
